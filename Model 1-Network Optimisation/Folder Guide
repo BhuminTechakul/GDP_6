@@ -1,0 +1,3 @@
+The files in the this folders are:
+1. Transport Strategy.xlsx: Information file on the parameters and OD matrixes used in the optimisation code
+2. test2-6.17-min time-final.py: Optimisation algorithm combining the facility location and port routing algorithm to perform network optimisation
