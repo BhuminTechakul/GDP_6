@@ -1,0 +1,5 @@
+Files included here are
+1. AcaiData.csv: Data on Acai production per year in the Brazilian Amazon region from 2000-2022
+2. NutsData.csv: Data on Brazil nuts production per year in the Brazilian Amazon region from 2000-2022
+3. TestAcai.ipynb: Forecasting for Acai production 
+4. TestNuts.ipynb: Forecasting for Brazil nuts production
