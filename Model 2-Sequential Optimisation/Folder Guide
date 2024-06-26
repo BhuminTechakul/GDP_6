@@ -3,5 +3,5 @@ The files in this folders are (in running order)
 2. RailDistance.xlsx: QGIS generated OD matrix for Rail(2014) between all town in the Bazilian Amazon region
 3. RiverDistance.xlsx: QGIS generated OD matrix for River between all town in the Bazilian Amazon region
 4. RoadDistance.xlsx: QGIS generated OD matrix for Road(2014) between all town in the Bazilian Amazon region
-5. Facility Location.py: Optimisation algorithm for facility allocation and town to factory routing
-6. Port Routing.py: Optimisation algorithm for capacitated routing between factory to port (Use the output file from the Facility Location.py)
+5. Facility Location.ipynb: Optimisation algorithm for facility allocation and town to factory routing
+6. Port Routing.ipynb: Optimisation algorithm for capacitated routing between factory to port (Use the output file from the Facility Location.py)
