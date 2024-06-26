@@ -2,5 +2,5 @@ Files included here are (in running order):
 1. Location extraction code.py: Python code using the Geocoder library to extract the coordinates of all town with Acai and/or Brazil nuts production in the Brazilian Amazon region 2016
 2. Location.xlsx: Output of Location extraction code.py with data on town name, latitude, longitude, acai production, brazil nuts production
 3. LocationForecast.xlsx: Data processed from the Location.xlsx and Forecasted output, showing location, past and future production of Acai berry from 2000-2050
-4. Map plotting code.py: Using the data from the Location.xlsx file and Python's folium and branca.colormap libraries to plot the location and their Acai or Brazil nuts production on the region map
-5. Multi Location Map Plotting code.py: Using the data from the LocationForecast.xlsx to generate 50 maps of Acai production from 2000-2050, these maps were used to make a timelapse video of Acai production past and predicted growth.
+4. Map plotting code.py: Using the data from the Location.xlsx file and Python's folium and branca.colormap libraries to plot the location and their Acai or Brazil nuts production on the region map (Output: Acaimap.html)
+5. Multi Location Map Plotting code.py: Using the data from the LocationForecast.xlsx to generate 50 maps of Acai production from 2000-2050, these maps were used to make a timelapse video of Acai production past and predicted growth. (Output: Multiple maps folder)
