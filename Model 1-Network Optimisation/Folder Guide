@@ -1,3 +1,7 @@
 The files in the this folders are:
 1. Transport Strategy.xlsx: Information file on the parameters and OD matrixes used in the optimisation code
-2. test2-6.17-min time-final.py: Optimisation algorithm combining the facility location and port routing algorithm to perform network optimisation
+2. OD Matrix - Transformation.ipynb: Modify the raw OD matrix to easy to process format
+Optimisation algorithm combining the facility location and port routing algorithm to perform network optimisation
+3. Min Cost.ipynb: Minimise cost objective function
+4. Min Time & Cost.ipynb: Minimise cost and time objective function
+5. Min Time.ipynb: Minimise time objective function
