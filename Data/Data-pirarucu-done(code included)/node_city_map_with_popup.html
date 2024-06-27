@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b77ca4f6d64e932eb6e771b5dc5e12eb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b77ca4f6d64e932eb6e771b5dc5e12eb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b77ca4f6d64e932eb6e771b5dc5e12eb = L.map(
+                "map_b77ca4f6d64e932eb6e771b5dc5e12eb",
+                {
+                    center: [-3.4653, -62.2159],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_76996fc194ba61e00a0aad223cbe6f96 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_76996fc194ba61e00a0aad223cbe6f96.addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_93af7d12d345f4b39474e7824e5d9330 = L.circleMarker(
+                [-3.213611111111111, -64.80944444444444],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_b2e7b4f1c756bc383351d1d2fc8c79ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43250da5e25e1282129a850f66886c15 = $(`<div id="html_43250da5e25e1282129a850f66886c15" style="width: 100.0%; height: 100.0%;">Alvarães</div>`)[0];
+                popup_b2e7b4f1c756bc383351d1d2fc8c79ef.setContent(html_43250da5e25e1282129a850f66886c15);
+            
+        
+
+        circle_marker_93af7d12d345f4b39474e7824e5d9330.bindPopup(popup_b2e7b4f1c756bc383351d1d2fc8c79ef)
+        ;
+
+        
+    
+    
+            var circle_marker_74c2dc33e034a920aa88c003e03fa14f = L.circleMarker(
+                [-3.7480555555555557, -61.65861111111111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_651cc3875cb29aa21e65f378bbdf01f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e7e9936715202cdc19561c31c9682d = $(`<div id="html_c5e7e9936715202cdc19561c31c9682d" style="width: 100.0%; height: 100.0%;">Anori</div>`)[0];
+                popup_651cc3875cb29aa21e65f378bbdf01f6.setContent(html_c5e7e9936715202cdc19561c31c9682d);
+            
+        
+
+        circle_marker_74c2dc33e034a920aa88c003e03fa14f.bindPopup(popup_651cc3875cb29aa21e65f378bbdf01f6)
+        ;
+
+        
+    
+    
+            var circle_marker_4d7dea384cda22ac6094600dba9bdc2d = L.circleMarker(
+                [-0.9738888888888889, -62.925555555555555],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_7748d200c969abafb3c304bb1bebc125 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a521a28e07842b0351e78e997897c12d = $(`<div id="html_a521a28e07842b0351e78e997897c12d" style="width: 100.0%; height: 100.0%;">Barcelos</div>`)[0];
+                popup_7748d200c969abafb3c304bb1bebc125.setContent(html_a521a28e07842b0351e78e997897c12d);
+            
+        
+
+        circle_marker_4d7dea384cda22ac6094600dba9bdc2d.bindPopup(popup_7748d200c969abafb3c304bb1bebc125)
+        ;
+
+        
+    
+    
+            var circle_marker_83596fc40a22364c5fbf8930624d0387 = L.circleMarker(
+                [-3.8983333333333334, -61.37388888888889],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_c04d7d04ad27e64ebbede16bd1915bb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6051bd17f4487d7bb846e7d8efbafbf5 = $(`<div id="html_6051bd17f4487d7bb846e7d8efbafbf5" style="width: 100.0%; height: 100.0%;">Beruri</div>`)[0];
+                popup_c04d7d04ad27e64ebbede16bd1915bb3.setContent(html_6051bd17f4487d7bb846e7d8efbafbf5);
+            
+        
+
+        circle_marker_83596fc40a22364c5fbf8930624d0387.bindPopup(popup_c04d7d04ad27e64ebbede16bd1915bb3)
+        ;
+
+        
+    
+    
+            var circle_marker_2b415ba6fe78afd05191bd8687d62bbd = L.circleMarker(
+                [-4.877222222222223, -66.89666666666668],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_5f0a7346bd2fadc54d650bcf0e10d725 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70d564bfd7a6f56f59fcafb208b147e5 = $(`<div id="html_70d564bfd7a6f56f59fcafb208b147e5" style="width: 100.0%; height: 100.0%;">Carauari</div>`)[0];
+                popup_5f0a7346bd2fadc54d650bcf0e10d725.setContent(html_70d564bfd7a6f56f59fcafb208b147e5);
+            
+        
+
+        circle_marker_2b415ba6fe78afd05191bd8687d62bbd.bindPopup(popup_5f0a7346bd2fadc54d650bcf0e10d725)
+        ;
+
+        
+    
+    
+            var circle_marker_828993d143bf1ef0c675e0b8f915d4f0 = L.circleMarker(
+                [-2.515, -66.09583333333333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_1efb63b58380a7ed3fffbef242da9e34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecfc62e7d8df5f5b6af6ee483e25d9b5 = $(`<div id="html_ecfc62e7d8df5f5b6af6ee483e25d9b5" style="width: 100.0%; height: 100.0%;">Fonte Boa</div>`)[0];
+                popup_1efb63b58380a7ed3fffbef242da9e34.setContent(html_ecfc62e7d8df5f5b6af6ee483e25d9b5);
+            
+        
+
+        circle_marker_828993d143bf1ef0c675e0b8f915d4f0.bindPopup(popup_1efb63b58380a7ed3fffbef242da9e34)
+        ;
+
+        
+    
+    
+            var circle_marker_1e0dca254d13869036cccb3b783e4170 = L.circleMarker(
+                [-6.439444444444445, -68.24361111111111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_c45c0556ba46a291b6217876547b20ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cde8a9f7445ab34c4f6bb6722f7949e9 = $(`<div id="html_cde8a9f7445ab34c4f6bb6722f7949e9" style="width: 100.0%; height: 100.0%;">Itamarati</div>`)[0];
+                popup_c45c0556ba46a291b6217876547b20ae.setContent(html_cde8a9f7445ab34c4f6bb6722f7949e9);
+            
+        
+
+        circle_marker_1e0dca254d13869036cccb3b783e4170.bindPopup(popup_c45c0556ba46a291b6217876547b20ae)
+        ;
+
+        
+    
+    
+            var circle_marker_d2d38e265135d95c70fa6f47c9e32b3e = L.circleMarker(
+                [-1.8797222222222223, -66.99861111111112],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_640529b77773a196b15fea99ed52029c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4674ab31c74c142ecbfda816ba36a0ae = $(`<div id="html_4674ab31c74c142ecbfda816ba36a0ae" style="width: 100.0%; height: 100.0%;">Japurá</div>`)[0];
+                popup_640529b77773a196b15fea99ed52029c.setContent(html_4674ab31c74c142ecbfda816ba36a0ae);
+            
+        
+
+        circle_marker_d2d38e265135d95c70fa6f47c9e32b3e.bindPopup(popup_640529b77773a196b15fea99ed52029c)
+        ;
+
+        
+    
+    
+            var circle_marker_ae81874e105cb1fba815a2f28f5c9659 = L.circleMarker(
+                [-3.4747222222222223, -66.06388888888888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_460a28de8239488e60efa2ab8287f8ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9854155d130a04d47c0f81893693c0be = $(`<div id="html_9854155d130a04d47c0f81893693c0be" style="width: 100.0%; height: 100.0%;">Juruá</div>`)[0];
+                popup_460a28de8239488e60efa2ab8287f8ac.setContent(html_9854155d130a04d47c0f81893693c0be);
+            
+        
+
+        circle_marker_ae81874e105cb1fba815a2f28f5c9659.bindPopup(popup_460a28de8239488e60efa2ab8287f8ac)
+        ;
+
+        
+    
+    
+            var circle_marker_5f9e05bd4a8dce6fc6d44cac4d75782b = L.circleMarker(
+                [-2.7486111111111113, -66.7725],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_f60e438ab1a08d1c30812cc94da643c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4aae9ba052df00fbb086795cd1c94ad = $(`<div id="html_e4aae9ba052df00fbb086795cd1c94ad" style="width: 100.0%; height: 100.0%;">Jutaí</div>`)[0];
+                popup_f60e438ab1a08d1c30812cc94da643c5.setContent(html_e4aae9ba052df00fbb086795cd1c94ad);
+            
+        
+
+        circle_marker_5f9e05bd4a8dce6fc6d44cac4d75782b.bindPopup(popup_f60e438ab1a08d1c30812cc94da643c5)
+        ;
+
+        
+    
+    
+            var circle_marker_eb2d057e2034d4e5a86a8a2628174f30 = L.circleMarker(
+                [-7.2636111111111115, -64.79638888888888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_95b3688839f28c9605f00741b4143520 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b0d6777fa1655b8b84a54d0c64c57b5 = $(`<div id="html_1b0d6777fa1655b8b84a54d0c64c57b5" style="width: 100.0%; height: 100.0%;">Lábrea</div>`)[0];
+                popup_95b3688839f28c9605f00741b4143520.setContent(html_1b0d6777fa1655b8b84a54d0c64c57b5);
+            
+        
+
+        circle_marker_eb2d057e2034d4e5a86a8a2628174f30.bindPopup(popup_95b3688839f28c9605f00741b4143520)
+        ;
+
+        
+    
+    
+            var circle_marker_123d6f4025e9a8612afdaac5a4b151cc = L.circleMarker(
+                [-1.8591666666666669, -65.58972222222222],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_1c8dbfc675ca6cc305ee8306e9ccfc06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf5bb9c043c114b972692cbe8861b564 = $(`<div id="html_bf5bb9c043c114b972692cbe8861b564" style="width: 100.0%; height: 100.0%;">Maraã</div>`)[0];
+                popup_1c8dbfc675ca6cc305ee8306e9ccfc06.setContent(html_bf5bb9c043c114b972692cbe8861b564);
+            
+        
+
+        circle_marker_123d6f4025e9a8612afdaac5a4b151cc.bindPopup(popup_1c8dbfc675ca6cc305ee8306e9ccfc06)
+        ;
+
+        
+    
+    
+            var circle_marker_993e5fdd7e9246ffb34734a0d6c208fd = L.circleMarker(
+                [-2.6230555555555557, -60.94305555555555],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_ee9d4a6b86cf28abf93b7404a8403d43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8983eb5cf7b8787e1118f948dfbff052 = $(`<div id="html_8983eb5cf7b8787e1118f948dfbff052" style="width: 100.0%; height: 100.0%;">Novo Airão</div>`)[0];
+                popup_ee9d4a6b86cf28abf93b7404a8403d43.setContent(html_8983eb5cf7b8787e1118f948dfbff052);
+            
+        
+
+        circle_marker_993e5fdd7e9246ffb34734a0d6c208fd.bindPopup(popup_ee9d4a6b86cf28abf93b7404a8403d43)
+        ;
+
+        
+    
+    
+            var circle_marker_bd5f97411188cfd15e795381855545d8 = L.circleMarker(
+                [-5.625000000000001, -63.18888888888888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_8e8494368bfac6ba4733386b7831e72d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c3d0591efa1123b0e0490c29c7e7b0d = $(`<div id="html_6c3d0591efa1123b0e0490c29c7e7b0d" style="width: 100.0%; height: 100.0%;">Tapauá</div>`)[0];
+                popup_8e8494368bfac6ba4733386b7831e72d.setContent(html_6c3d0591efa1123b0e0490c29c7e7b0d);
+            
+        
+
+        circle_marker_bd5f97411188cfd15e795381855545d8.bindPopup(popup_8e8494368bfac6ba4733386b7831e72d)
+        ;
+
+        
+    
+    
+            var circle_marker_3457919bc9e4b6dcc8124d5e075ca402 = L.circleMarker(
+                [-3.3472222222222223, -64.70916666666668],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_b28d20631f15f6b1ea85f3bc0f932237 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7906268c45549fce7540124498b7a009 = $(`<div id="html_7906268c45549fce7540124498b7a009" style="width: 100.0%; height: 100.0%;">Tefé</div>`)[0];
+                popup_b28d20631f15f6b1ea85f3bc0f932237.setContent(html_7906268c45549fce7540124498b7a009);
+            
+        
+
+        circle_marker_3457919bc9e4b6dcc8124d5e075ca402.bindPopup(popup_b28d20631f15f6b1ea85f3bc0f932237)
+        ;
+
+        
+    
+    
+            var circle_marker_4fd18a4e8e412806dbbc646b3b810430 = L.circleMarker(
+                [-2.861666666666667, -67.77555555555556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_26910c591460ada28e24d97041114931 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caac70e46418f662323448760231ed0d = $(`<div id="html_caac70e46418f662323448760231ed0d" style="width: 100.0%; height: 100.0%;">Tonantins</div>`)[0];
+                popup_26910c591460ada28e24d97041114931.setContent(html_caac70e46418f662323448760231ed0d);
+            
+        
+
+        circle_marker_4fd18a4e8e412806dbbc646b3b810430.bindPopup(popup_26910c591460ada28e24d97041114931)
+        ;
+
+        
+    
+    
+            var circle_marker_a8329070c05cdb365fa22fc1a139054b = L.circleMarker(
+                [-2.9822222222222226, -65.15916666666668],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_ea18180b712038c7c8adc655a4291f0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aee849a325a950f7bcf5201f999f6be = $(`<div id="html_3aee849a325a950f7bcf5201f999f6be" style="width: 100.0%; height: 100.0%;">Uarini</div>`)[0];
+                popup_ea18180b712038c7c8adc655a4291f0f.setContent(html_3aee849a325a950f7bcf5201f999f6be);
+            
+        
+
+        circle_marker_a8329070c05cdb365fa22fc1a139054b.bindPopup(popup_ea18180b712038c7c8adc655a4291f0f)
+        ;
+
+        
+    
+    
+            var circle_marker_d6a35b3f6069291bf667bd6985c30aa1 = L.circleMarker(
+                [-3.236666666666667, -64.77777777777777],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_6c29019f2f1ff2b6127b0ef025f6d931 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_967e4fcd3f81daebfb1c4b16c361e13e = $(`<div id="html_967e4fcd3f81daebfb1c4b16c361e13e" style="width: 100.0%; height: 100.0%;">Rio Solimões</div>`)[0];
+                popup_6c29019f2f1ff2b6127b0ef025f6d931.setContent(html_967e4fcd3f81daebfb1c4b16c361e13e);
+            
+        
+
+        circle_marker_d6a35b3f6069291bf667bd6985c30aa1.bindPopup(popup_6c29019f2f1ff2b6127b0ef025f6d931)
+        ;
+
+        
+    
+    
+            var poly_line_75b8830cddc4ba9a92c70f03d2284cb2 = L.polyline(
+                [[-3.236666666666667, -64.77777777777777], [-3.213611111111111, -64.80944444444444]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_dcfebad84e68032a54b7d2bbccddd019 = L.circleMarker(
+                [-0.4230555555555556, -64.65611111111112],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_6a6893c725bfbb1801f39bc931cb6f7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9895a954124e93c55c730892ab07413 = $(`<div id="html_b9895a954124e93c55c730892ab07413" style="width: 100.0%; height: 100.0%;">Rio Negro</div>`)[0];
+                popup_6a6893c725bfbb1801f39bc931cb6f7c.setContent(html_b9895a954124e93c55c730892ab07413);
+            
+        
+
+        circle_marker_dcfebad84e68032a54b7d2bbccddd019.bindPopup(popup_6a6893c725bfbb1801f39bc931cb6f7c)
+        ;
+
+        
+    
+    
+            var poly_line_4c55256f8cf54af5ea72150d46d5a944 = L.polyline(
+                [[-0.4230555555555556, -64.65611111111112], [-1.8591666666666669, -65.58972222222222]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_f65da5d2bbed32da6366fb25e16eb64a = L.circleMarker(
+                [-7.506944444444445, -66.30361111111111],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_200fb40b1f41d9436048a62a8588b036 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b47d38501956573129d59b7f29bda9e8 = $(`<div id="html_b47d38501956573129d59b7f29bda9e8" style="width: 100.0%; height: 100.0%;">Rio Purus</div>`)[0];
+                popup_200fb40b1f41d9436048a62a8588b036.setContent(html_b47d38501956573129d59b7f29bda9e8);
+            
+        
+
+        circle_marker_f65da5d2bbed32da6366fb25e16eb64a.bindPopup(popup_200fb40b1f41d9436048a62a8588b036)
+        ;
+
+        
+    
+    
+            var poly_line_dc6fceac9a9d67436bfd2a9a848e5e96 = L.polyline(
+                [[-7.506944444444445, -66.30361111111111], [-7.2636111111111115, -64.79638888888888]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_78fa788771955a3e77bcfd060e308f30 = L.circleMarker(
+                [-6.519166666666667, -69.42194444444445],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_3e793e4ec8282d60678bcb35001a2661 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01de3f0fe514e2d4db68f328e741afd1 = $(`<div id="html_01de3f0fe514e2d4db68f328e741afd1" style="width: 100.0%; height: 100.0%;">Rio Juruá</div>`)[0];
+                popup_3e793e4ec8282d60678bcb35001a2661.setContent(html_01de3f0fe514e2d4db68f328e741afd1);
+            
+        
+
+        circle_marker_78fa788771955a3e77bcfd060e308f30.bindPopup(popup_3e793e4ec8282d60678bcb35001a2661)
+        ;
+
+        
+    
+    
+            var poly_line_55ca5e0653ad9e9b3deed10544786a68 = L.polyline(
+                [[-6.519166666666667, -69.42194444444445], [-6.439444444444445, -68.24361111111111]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_ef38e6e817b2c5cd1b262848da0c71af = L.circleMarker(
+                [-2.0252777777777777, -66.37805555555555],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_12c1a9aa59410f7f112997a5eed3f0b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6bca52b08f4b6cc6bfaf82a8993052f = $(`<div id="html_a6bca52b08f4b6cc6bfaf82a8993052f" style="width: 100.0%; height: 100.0%;">Reserva Extrativista Auati-Paraná</div>`)[0];
+                popup_12c1a9aa59410f7f112997a5eed3f0b8.setContent(html_a6bca52b08f4b6cc6bfaf82a8993052f);
+            
+        
+
+        circle_marker_ef38e6e817b2c5cd1b262848da0c71af.bindPopup(popup_12c1a9aa59410f7f112997a5eed3f0b8)
+        ;
+
+        
+    
+    
+            var poly_line_5e98d0e067dd9191fa26e8b54597f8ba = L.polyline(
+                [[-2.0252777777777777, -66.37805555555555], [-2.515, -66.09583333333333]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_cbd27031e0d1d36cea5f83dff6eb1107 = L.circleMarker(
+                [-3.5475, -65.96416666666667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_1708a5c10139a3d32cb93d79e19f01b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1ccbc192708d0b23b35f0c93424af72 = $(`<div id="html_f1ccbc192708d0b23b35f0c93424af72" style="width: 100.0%; height: 100.0%;">Reserva Extrativista Baixo Juruá</div>`)[0];
+                popup_1708a5c10139a3d32cb93d79e19f01b9.setContent(html_f1ccbc192708d0b23b35f0c93424af72);
+            
+        
+
+        circle_marker_cbd27031e0d1d36cea5f83dff6eb1107.bindPopup(popup_1708a5c10139a3d32cb93d79e19f01b9)
+        ;
+
+        
+    
+    
+            var poly_line_5fb9bd33e334d088bf6a2bc66f94b44d = L.polyline(
+                [[-3.5475, -65.96416666666667], [-3.4747222222222223, -66.06388888888888]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_57d2f1a457d319c38213ec4dd95fe57e = L.circleMarker(
+                [-5.266111111111111, -67.46638888888889],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_052481d0f29462377f6efeb0c4e0ad65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6bf520e7bf34d3ee6e410cae357974b = $(`<div id="html_a6bf520e7bf34d3ee6e410cae357974b" style="width: 100.0%; height: 100.0%;">Reserva Extrativista do Médio Juruá</div>`)[0];
+                popup_052481d0f29462377f6efeb0c4e0ad65.setContent(html_a6bf520e7bf34d3ee6e410cae357974b);
+            
+        
+
+        circle_marker_57d2f1a457d319c38213ec4dd95fe57e.bindPopup(popup_052481d0f29462377f6efeb0c4e0ad65)
+        ;
+
+        
+    
+    
+            var poly_line_2e9d697a423fcd666d45c55c765d61fb = L.polyline(
+                [[-5.266111111111111, -67.46638888888889], [-4.877222222222223, -66.89666666666668]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_8f2d1135c1c22b61f0e9e414f9e10eef = L.circleMarker(
+                [-7.706666666666667, -66.11749999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_a4aaaec6465938cb443f6a02c86259e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0d86d2da1947aae347baf1275ecf2de = $(`<div id="html_b0d86d2da1947aae347baf1275ecf2de" style="width: 100.0%; height: 100.0%;">Reserva Extrativista do Médio Purús</div>`)[0];
+                popup_a4aaaec6465938cb443f6a02c86259e5.setContent(html_b0d86d2da1947aae347baf1275ecf2de);
+            
+        
+
+        circle_marker_8f2d1135c1c22b61f0e9e414f9e10eef.bindPopup(popup_a4aaaec6465938cb443f6a02c86259e5)
+        ;
+
+        
+    
+    
+            var poly_line_5270e62995e7fcf822af7851967edda2 = L.polyline(
+                [[-7.706666666666667, -66.11749999999999], [-7.2636111111111115, -64.79638888888888]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_a03b6e2ac92dcc419d87c90568fbeba2 = L.circleMarker(
+                [-8.373333333333333, -65.28777777777778],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_907ad027ec83972ff939df6a533ddb27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_443da6e1320d93c8467734d3626b23d5 = $(`<div id="html_443da6e1320d93c8467734d3626b23d5" style="width: 100.0%; height: 100.0%;">Reserva Extrativista Ituxí</div>`)[0];
+                popup_907ad027ec83972ff939df6a533ddb27.setContent(html_443da6e1320d93c8467734d3626b23d5);
+            
+        
+
+        circle_marker_a03b6e2ac92dcc419d87c90568fbeba2.bindPopup(popup_907ad027ec83972ff939df6a533ddb27)
+        ;
+
+        
+    
+    
+            var poly_line_f76ebbe392f658e867987fc4662853ef = L.polyline(
+                [[-8.373333333333333, -65.28777777777778], [-7.2636111111111115, -64.79638888888888]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_d4d9dd985a1902e2760a23d866bc4ed2 = L.circleMarker(
+                [-3.506388888888889, -67.32722222222222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_ebd9a4b9b3c856cbbbd24ee8471a7177 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56a7a6501fda59824ba346deeb3b5963 = $(`<div id="html_56a7a6501fda59824ba346deeb3b5963" style="width: 100.0%; height: 100.0%;">Reserva Extrativista do Rio Jutaí</div>`)[0];
+                popup_ebd9a4b9b3c856cbbbd24ee8471a7177.setContent(html_56a7a6501fda59824ba346deeb3b5963);
+            
+        
+
+        circle_marker_d4d9dd985a1902e2760a23d866bc4ed2.bindPopup(popup_ebd9a4b9b3c856cbbbd24ee8471a7177)
+        ;
+
+        
+    
+    
+            var poly_line_4785ba580882efbacc12fafb6c46b482 = L.polyline(
+                [[-3.506388888888889, -67.32722222222222], [-2.861666666666667, -67.77555555555556]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_41e3dd94717967457e433ed75a1dd158 = L.circleMarker(
+                [-1.5155555555555555, -63.36805555555556],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_cf118109a51502e55a24235b2f2f8199 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_015f556eb75842eae77903308748a555 = $(`<div id="html_015f556eb75842eae77903308748a555" style="width: 100.0%; height: 100.0%;">Reserva Extrativista Rio Unini</div>`)[0];
+                popup_cf118109a51502e55a24235b2f2f8199.setContent(html_015f556eb75842eae77903308748a555);
+            
+        
+
+        circle_marker_41e3dd94717967457e433ed75a1dd158.bindPopup(popup_cf118109a51502e55a24235b2f2f8199)
+        ;
+
+        
+    
+    
+            var poly_line_053f8e910c50eea889042e3695050741 = L.polyline(
+                [[-1.5155555555555555, -63.36805555555556], [-0.9738888888888889, -62.925555555555555]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_823ce81e3d81113e13c9f4010ef7fca1 = L.circleMarker(
+                [-2.223888888888889, -65.72083333333333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_0d641d27130c0eec3be0babfc8241f9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43a6dd67b9fd135969ed9fd8f6a538ec = $(`<div id="html_43a6dd67b9fd135969ed9fd8f6a538ec" style="width: 100.0%; height: 100.0%;">Reserva de Desenvolvimento Sustentável Mamirauá</div>`)[0];
+                popup_0d641d27130c0eec3be0babfc8241f9b.setContent(html_43a6dd67b9fd135969ed9fd8f6a538ec);
+            
+        
+
+        circle_marker_823ce81e3d81113e13c9f4010ef7fca1.bindPopup(popup_0d641d27130c0eec3be0babfc8241f9b)
+        ;
+
+        
+    
+    
+            var poly_line_e572d8d179a5766b8188cc7973923d51 = L.polyline(
+                [[-2.223888888888889, -65.72083333333333], [-1.8591666666666669, -65.58972222222222]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_b8024662d60b8931bfec01de6f6ff6dc = L.circleMarker(
+                [-4.701944444444445, -62.59916666666667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_f5277616381efd506f953a4434c59bed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dfa0dccee4a6d3e534a46a60ac3e3fa = $(`<div id="html_1dfa0dccee4a6d3e534a46a60ac3e3fa" style="width: 100.0%; height: 100.0%;">Terra Indígena Itixi Mitari</div>`)[0];
+                popup_f5277616381efd506f953a4434c59bed.setContent(html_1dfa0dccee4a6d3e534a46a60ac3e3fa);
+            
+        
+
+        circle_marker_b8024662d60b8931bfec01de6f6ff6dc.bindPopup(popup_f5277616381efd506f953a4434c59bed)
+        ;
+
+        
+    
+    
+            var poly_line_e581eb2dee77508645665803e86eb795 = L.polyline(
+                [[-4.701944444444445, -62.59916666666667], [-5.625000000000001, -63.18888888888888]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_4e614c7f57c429f0a72476cdee4c15ac = L.circleMarker(
+                [-5.796388888888889, -64.59222222222222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_dbd05754b2b0ffe7cfd53ced38a53ae2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24619e92bd20fac7575393e4b874ac7c = $(`<div id="html_24619e92bd20fac7575393e4b874ac7c" style="width: 100.0%; height: 100.0%;">Terra Indígena Paumari do Lago Manissuã</div>`)[0];
+                popup_dbd05754b2b0ffe7cfd53ced38a53ae2.setContent(html_24619e92bd20fac7575393e4b874ac7c);
+            
+        
+
+        circle_marker_4e614c7f57c429f0a72476cdee4c15ac.bindPopup(popup_dbd05754b2b0ffe7cfd53ced38a53ae2)
+        ;
+
+        
+    
+    
+            var poly_line_e73e5d474e7b8189dc4ed42873bb01e0 = L.polyline(
+                [[-5.796388888888889, -64.59222222222222], [-5.625000000000001, -63.18888888888888]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_1f5511e50a95d5e658e19463298aba94 = L.circleMarker(
+                [-5.930277777777778, -64.7075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_25fc2bca28cf89607574e512472ba2c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51b34513c3207ea8f24350f8f8373250 = $(`<div id="html_51b34513c3207ea8f24350f8f8373250" style="width: 100.0%; height: 100.0%;">Terra Indígena Paumari do Lago Paricá</div>`)[0];
+                popup_25fc2bca28cf89607574e512472ba2c3.setContent(html_51b34513c3207ea8f24350f8f8373250);
+            
+        
+
+        circle_marker_1f5511e50a95d5e658e19463298aba94.bindPopup(popup_25fc2bca28cf89607574e512472ba2c3)
+        ;
+
+        
+    
+    
+            var poly_line_bb951b9577b83d75138c6fb2a6a25e00 = L.polyline(
+                [[-5.930277777777778, -64.7075], [-7.2636111111111115, -64.79638888888888]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_bfaa643e5492fecd2c192db4b46d52bb = L.circleMarker(
+                [-6.093055555555555, -64.85749999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_7e1d62d744e5dbe152374cbb39a7e1fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06af207809d9b3795811552b4c9804e5 = $(`<div id="html_06af207809d9b3795811552b4c9804e5" style="width: 100.0%; height: 100.0%;">Terra Indígena Paumari do Cuniuá</div>`)[0];
+                popup_7e1d62d744e5dbe152374cbb39a7e1fa.setContent(html_06af207809d9b3795811552b4c9804e5);
+            
+        
+
+        circle_marker_bfaa643e5492fecd2c192db4b46d52bb.bindPopup(popup_7e1d62d744e5dbe152374cbb39a7e1fa)
+        ;
+
+        
+    
+    
+            var poly_line_d80004b7522824a9fcc3d90fe5fe382c = L.polyline(
+                [[-6.093055555555555, -64.85749999999999], [-7.2636111111111115, -64.79638888888888]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+            var circle_marker_df3beee8b46d0492321807a6ef9f34c0 = L.circleMarker(
+                [-6.116111111111111, -67.80083333333333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+    
+        var popup_26b559b4575c881c5d01609947242c09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0135078c3b302e592607d28456cf556 = $(`<div id="html_d0135078c3b302e592607d28456cf556" style="width: 100.0%; height: 100.0%;">Terra Indígena Deni</div>`)[0];
+                popup_26b559b4575c881c5d01609947242c09.setContent(html_d0135078c3b302e592607d28456cf556);
+            
+        
+
+        circle_marker_df3beee8b46d0492321807a6ef9f34c0.bindPopup(popup_26b559b4575c881c5d01609947242c09)
+        ;
+
+        
+    
+    
+            var poly_line_13f317f0c407d5e1c84c792da60eafdb = L.polyline(
+                [[-6.116111111111111, -67.80083333333333], [-6.439444444444445, -68.24361111111111]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_b77ca4f6d64e932eb6e771b5dc5e12eb);
+        
+</script>
+</html>

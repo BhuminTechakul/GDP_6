@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d378f784665b094fa5a9c59b64111981 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d378f784665b094fa5a9c59b64111981" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d378f784665b094fa5a9c59b64111981 = L.map(
+                "map_d378f784665b094fa5a9c59b64111981",
+                {
+                    center: [-10.0, -55.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bde8b071d8e2910385f9a4be31aed2dc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var marker_78070433e4e8d9bcf8e40e6c852f3cba = L.marker(
+                [-23.9659160679792, -46.3018955320748],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_c4317b6918ee9c79bfd7ce859424f529 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78070433e4e8d9bcf8e40e6c852f3cba.setIcon(icon_c4317b6918ee9c79bfd7ce859424f529);
+        
+    
+        var popup_8bd6339d47de5efd94d14941a6b692bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cef0cc349a468628f78fc202c3e8a11 = $(`<div id="html_4cef0cc349a468628f78fc202c3e8a11" style="width: 100.0%; height: 100.0%;">Porto de Santos</div>`)[0];
+            popup_8bd6339d47de5efd94d14941a6b692bd.setContent(html_4cef0cc349a468628f78fc202c3e8a11);
+        
+
+        marker_78070433e4e8d9bcf8e40e6c852f3cba.bindPopup(popup_8bd6339d47de5efd94d14941a6b692bd)
+        ;
+
+        
+    
+    
+            var marker_82725b891b1f96a2befab8ed9e48f3f9 = L.marker(
+                [-25.5183, -48.5075],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_36597fbca2cfe979f7b821a152255c27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82725b891b1f96a2befab8ed9e48f3f9.setIcon(icon_36597fbca2cfe979f7b821a152255c27);
+        
+    
+        var popup_a92768086e70cf40228646f47c0710f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e5836b5a015c8132140d48ebd8a78d8 = $(`<div id="html_0e5836b5a015c8132140d48ebd8a78d8" style="width: 100.0%; height: 100.0%;">Porto de Paranaguá</div>`)[0];
+            popup_a92768086e70cf40228646f47c0710f6.setContent(html_0e5836b5a015c8132140d48ebd8a78d8);
+        
+
+        marker_82725b891b1f96a2befab8ed9e48f3f9.bindPopup(popup_a92768086e70cf40228646f47c0710f6)
+        ;
+
+        
+    
+    
+            var marker_ebd29f26259dc1668b5c85a726655c8d = L.marker(
+                [-32.11, -52.0971],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_624552a636591a9b3f381f269b6ac91c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebd29f26259dc1668b5c85a726655c8d.setIcon(icon_624552a636591a9b3f381f269b6ac91c);
+        
+    
+        var popup_59f9fb2f3aadb5a2d8165f99ae6cb322 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d6f3e0966cb3b41c331d330767ec146 = $(`<div id="html_0d6f3e0966cb3b41c331d330767ec146" style="width: 100.0%; height: 100.0%;">Porto de Rio Grande</div>`)[0];
+            popup_59f9fb2f3aadb5a2d8165f99ae6cb322.setContent(html_0d6f3e0966cb3b41c331d330767ec146);
+        
+
+        marker_ebd29f26259dc1668b5c85a726655c8d.bindPopup(popup_59f9fb2f3aadb5a2d8165f99ae6cb322)
+        ;
+
+        
+    
+    
+            var marker_70c48d82db3379a5f9b1122662789a10 = L.marker(
+                [-2.5632, -44.3659],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_095706de93051df9c6065f760e3283f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_70c48d82db3379a5f9b1122662789a10.setIcon(icon_095706de93051df9c6065f760e3283f0);
+        
+    
+        var popup_ef5c3cca7484922bb90122f25bba5adf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f80efc2cd5809db731baf075386e1f3 = $(`<div id="html_3f80efc2cd5809db731baf075386e1f3" style="width: 100.0%; height: 100.0%;">Porto de Itaqui</div>`)[0];
+            popup_ef5c3cca7484922bb90122f25bba5adf.setContent(html_3f80efc2cd5809db731baf075386e1f3);
+        
+
+        marker_70c48d82db3379a5f9b1122662789a10.bindPopup(popup_ef5c3cca7484922bb90122f25bba5adf)
+        ;
+
+        
+    
+    
+            var marker_c94136b0a78ffcdb4acbef3cf69a8f69 = L.marker(
+                [-8.3939, -34.978],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_6f7dcd8ef7a5b6c5c9657331b14a78d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c94136b0a78ffcdb4acbef3cf69a8f69.setIcon(icon_6f7dcd8ef7a5b6c5c9657331b14a78d0);
+        
+    
+        var popup_0fc3868356da74d5502bb9de6efb2998 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cd912e4ac45ec25b3e71f81def3a1b8 = $(`<div id="html_1cd912e4ac45ec25b3e71f81def3a1b8" style="width: 100.0%; height: 100.0%;">Porto de Suape</div>`)[0];
+            popup_0fc3868356da74d5502bb9de6efb2998.setContent(html_1cd912e4ac45ec25b3e71f81def3a1b8);
+        
+
+        marker_c94136b0a78ffcdb4acbef3cf69a8f69.bindPopup(popup_0fc3868356da74d5502bb9de6efb2998)
+        ;
+
+        
+    
+    
+            var marker_69c0ef165173a9b6ea3fd97703f576b5 = L.marker(
+                [-20.3155, -40.3388],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_379274bfdebcd60b4e95454b744ae347 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69c0ef165173a9b6ea3fd97703f576b5.setIcon(icon_379274bfdebcd60b4e95454b744ae347);
+        
+    
+        var popup_a9fdbb70a0e8deda1bd31f0e493dc455 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_785078b2d09af18785080e37640dc945 = $(`<div id="html_785078b2d09af18785080e37640dc945" style="width: 100.0%; height: 100.0%;">Porto de Vitória</div>`)[0];
+            popup_a9fdbb70a0e8deda1bd31f0e493dc455.setContent(html_785078b2d09af18785080e37640dc945);
+        
+
+        marker_69c0ef165173a9b6ea3fd97703f576b5.bindPopup(popup_a9fdbb70a0e8deda1bd31f0e493dc455)
+        ;
+
+        
+    
+    
+            var marker_d1ac82710f29476e7a768862fb54c58e = L.marker(
+                [-12.7778, -38.5225],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_c28977b2068b3f81ac1a6f3ae05e7e35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1ac82710f29476e7a768862fb54c58e.setIcon(icon_c28977b2068b3f81ac1a6f3ae05e7e35);
+        
+    
+        var popup_c29ebc1382a8bf650cfb5e9c0381ea01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ae81996e01d755928a873b96416af1c = $(`<div id="html_1ae81996e01d755928a873b96416af1c" style="width: 100.0%; height: 100.0%;">Porto de Aratu</div>`)[0];
+            popup_c29ebc1382a8bf650cfb5e9c0381ea01.setContent(html_1ae81996e01d755928a873b96416af1c);
+        
+
+        marker_d1ac82710f29476e7a768862fb54c58e.bindPopup(popup_c29ebc1382a8bf650cfb5e9c0381ea01)
+        ;
+
+        
+    
+    
+            var marker_96b64a1fc5f010ea768f778200a51973 = L.marker(
+                [-3.139, -60.0245],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_014adddd283b517041bc5bcdc489f29f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_96b64a1fc5f010ea768f778200a51973.setIcon(icon_014adddd283b517041bc5bcdc489f29f);
+        
+    
+        var popup_21dce13ffc90c366499378b8f06cfc34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bfde45f8ca3ea3e71d885fda2c36db8 = $(`<div id="html_7bfde45f8ca3ea3e71d885fda2c36db8" style="width: 100.0%; height: 100.0%;">Porto de Manaus</div>`)[0];
+            popup_21dce13ffc90c366499378b8f06cfc34.setContent(html_7bfde45f8ca3ea3e71d885fda2c36db8);
+        
+
+        marker_96b64a1fc5f010ea768f778200a51973.bindPopup(popup_21dce13ffc90c366499378b8f06cfc34)
+        ;
+
+        
+    
+    
+            var marker_3cd41d15b4daab74767e7dc1b67be5d8 = L.marker(
+                [-26.1155, -48.6132],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_7777b0f907776af441efc078af0448f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3cd41d15b4daab74767e7dc1b67be5d8.setIcon(icon_7777b0f907776af441efc078af0448f9);
+        
+    
+        var popup_78fddcb8dcdc8e8bfbb437d1a296b69b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_222f07ed94607177bdc2139533783b52 = $(`<div id="html_222f07ed94607177bdc2139533783b52" style="width: 100.0%; height: 100.0%;">Porto de Itapoá</div>`)[0];
+            popup_78fddcb8dcdc8e8bfbb437d1a296b69b.setContent(html_222f07ed94607177bdc2139533783b52);
+        
+
+        marker_3cd41d15b4daab74767e7dc1b67be5d8.bindPopup(popup_78fddcb8dcdc8e8bfbb437d1a296b69b)
+        ;
+
+        
+    
+    
+            var marker_78e66f95784687ac00a0b7de27a956a9 = L.marker(
+                [-26.239, -48.6342],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_05677550c5bbe270cea432a16c633615 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78e66f95784687ac00a0b7de27a956a9.setIcon(icon_05677550c5bbe270cea432a16c633615);
+        
+    
+        var popup_c5602f61a26cb0b4029bbcc5b62687b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8372614211c2da2250fddc39ced88008 = $(`<div id="html_8372614211c2da2250fddc39ced88008" style="width: 100.0%; height: 100.0%;">Porto de São Francisco do Sul</div>`)[0];
+            popup_c5602f61a26cb0b4029bbcc5b62687b6.setContent(html_8372614211c2da2250fddc39ced88008);
+        
+
+        marker_78e66f95784687ac00a0b7de27a956a9.bindPopup(popup_c5602f61a26cb0b4029bbcc5b62687b6)
+        ;
+
+        
+    
+    
+            var marker_2aa1a95aa8bc05e7d75942e7d8f505f0 = L.marker(
+                [-2.5632, -44.3659],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_744eba203025e07ad2885c4fd500774e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2aa1a95aa8bc05e7d75942e7d8f505f0.setIcon(icon_744eba203025e07ad2885c4fd500774e);
+        
+    
+        var popup_dac9f2f011237a5cbc5b2a8ee58e3cc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f15499ef266225671a195c3aa375125c = $(`<div id="html_f15499ef266225671a195c3aa375125c" style="width: 100.0%; height: 100.0%;">Porto de São Luís</div>`)[0];
+            popup_dac9f2f011237a5cbc5b2a8ee58e3cc4.setContent(html_f15499ef266225671a195c3aa375125c);
+        
+
+        marker_2aa1a95aa8bc05e7d75942e7d8f505f0.bindPopup(popup_dac9f2f011237a5cbc5b2a8ee58e3cc4)
+        ;
+
+        
+    
+    
+            var marker_94fa9e888009638fe4f922cc194f0b5f = L.marker(
+                [-22.9326, -43.8225],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_7ff328fe950e7a9a19ad95aa2796df73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94fa9e888009638fe4f922cc194f0b5f.setIcon(icon_7ff328fe950e7a9a19ad95aa2796df73);
+        
+    
+        var popup_65c56162afd585ea71735a9747ec3499 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39c1b45a06c831f61a598a660f317bdd = $(`<div id="html_39c1b45a06c831f61a598a660f317bdd" style="width: 100.0%; height: 100.0%;">Porto de Itaguaí</div>`)[0];
+            popup_65c56162afd585ea71735a9747ec3499.setContent(html_39c1b45a06c831f61a598a660f317bdd);
+        
+
+        marker_94fa9e888009638fe4f922cc194f0b5f.bindPopup(popup_65c56162afd585ea71735a9747ec3499)
+        ;
+
+        
+    
+    
+            var marker_f7d23717c3b748f0da82e9d68650130b = L.marker(
+                [-22.8123079226145, -43.2510173805052],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_78e39140a1160bcffd80d6188f99651f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7d23717c3b748f0da82e9d68650130b.setIcon(icon_78e39140a1160bcffd80d6188f99651f);
+        
+    
+        var popup_999fee33dd6ebb1874ec35af706ea476 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5855b2b9be25e4b9f455de8d2f8b31c = $(`<div id="html_c5855b2b9be25e4b9f455de8d2f8b31c" style="width: 100.0%; height: 100.0%;">BRGIG - Internacional de Galeao</div>`)[0];
+            popup_999fee33dd6ebb1874ec35af706ea476.setContent(html_c5855b2b9be25e4b9f455de8d2f8b31c);
+        
+
+        marker_f7d23717c3b748f0da82e9d68650130b.bindPopup(popup_999fee33dd6ebb1874ec35af706ea476)
+        ;
+
+        
+    
+    
+            var marker_b393bdb64fe7781b1003a3b2bdfadf5c = L.marker(
+                [-2.42474179807709, -54.7857773644555],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_7c66bdbfdb92e49c60deee0bc62ef5eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b393bdb64fe7781b1003a3b2bdfadf5c.setIcon(icon_7c66bdbfdb92e49c60deee0bc62ef5eb);
+        
+    
+        var popup_c322beb9b0c732765382684036ae10a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eaf69113af75b0c1ede24aa70c2c2f4 = $(`<div id="html_6eaf69113af75b0c1ede24aa70c2c2f4" style="width: 100.0%; height: 100.0%;">BRSTM - Santarem</div>`)[0];
+            popup_c322beb9b0c732765382684036ae10a1.setContent(html_6eaf69113af75b0c1ede24aa70c2c2f4);
+        
+
+        marker_b393bdb64fe7781b1003a3b2bdfadf5c.bindPopup(popup_c322beb9b0c732765382684036ae10a1)
+        ;
+
+        
+    
+    
+            var marker_dcd153b3a8f7241574c0efdcba661ed5 = L.marker(
+                [-0.888237370739406, -52.5995204872435],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_9dac572cac0998ba6a9464471d3d290b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dcd153b3a8f7241574c0efdcba661ed5.setIcon(icon_9dac572cac0998ba6a9464471d3d290b);
+        
+    
+        var popup_7971294fc38b5cbdfd13d9ece35b01bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_841805531aab2a4364d5da74d6c7cfc2 = $(`<div id="html_841805531aab2a4364d5da74d6c7cfc2" style="width: 100.0%; height: 100.0%;">BRMEU - Monte Dourado Airport</div>`)[0];
+            popup_7971294fc38b5cbdfd13d9ece35b01bb.setContent(html_841805531aab2a4364d5da74d6c7cfc2);
+        
+
+        marker_dcd153b3a8f7241574c0efdcba661ed5.bindPopup(popup_7971294fc38b5cbdfd13d9ece35b01bb)
+        ;
+
+        
+    
+    
+            var marker_028399ad9e4dfe44eda6302134b4ca46 = L.marker(
+                [-1.38224626643748, -48.4766899637666],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_99cb8a064b21937f5174001c9c2e8771 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_028399ad9e4dfe44eda6302134b4ca46.setIcon(icon_99cb8a064b21937f5174001c9c2e8771);
+        
+    
+        var popup_cac68a3dd2ae4d9188606138917ff789 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_462da94a7fa2190d15f39eef7a694377 = $(`<div id="html_462da94a7fa2190d15f39eef7a694377" style="width: 100.0%; height: 100.0%;">BRBEL - Val De Cans Intl (Belem)</div>`)[0];
+            popup_cac68a3dd2ae4d9188606138917ff789.setContent(html_462da94a7fa2190d15f39eef7a694377);
+        
+
+        marker_028399ad9e4dfe44eda6302134b4ca46.bindPopup(popup_cac68a3dd2ae4d9188606138917ff789)
+        ;
+
+        
+    
+    
+            var marker_944d272452cd9cb0ae0bc04752023f32 = L.marker(
+                [-9.33385991095692, -54.9651355287056],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_22b7e3630be00892cc3598b2bde5b52e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_944d272452cd9cb0ae0bc04752023f32.setIcon(icon_22b7e3630be00892cc3598b2bde5b52e);
+        
+    
+        var popup_03761ad93ccfe2ea3327874fea3762e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77f8af0128eb5803caab77247d400a21 = $(`<div id="html_77f8af0128eb5803caab77247d400a21" style="width: 100.0%; height: 100.0%;">BRITB - Cachimbo</div>`)[0];
+            popup_03761ad93ccfe2ea3327874fea3762e0.setContent(html_77f8af0128eb5803caab77247d400a21);
+        
+
+        marker_944d272452cd9cb0ae0bc04752023f32.bindPopup(popup_03761ad93ccfe2ea3327874fea3762e0)
+        ;
+
+        
+    
+    
+            var marker_b1ced93255dcf838c692943838f1eae7 = L.marker(
+                [-23.007352976772, -47.1433168491922],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_64a10e85b859b4a68133c3ae8cbef14d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1ced93255dcf838c692943838f1eae7.setIcon(icon_64a10e85b859b4a68133c3ae8cbef14d);
+        
+    
+        var popup_ff4ffb28cfe591d9e18792581f91cfb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d66f164eee8b1b2c85bf0a269b7e3a88 = $(`<div id="html_d66f164eee8b1b2c85bf0a269b7e3a88" style="width: 100.0%; height: 100.0%;">BRVCP - Internacional de Campinas/Viracopos</div>`)[0];
+            popup_ff4ffb28cfe591d9e18792581f91cfb4.setContent(html_d66f164eee8b1b2c85bf0a269b7e3a88);
+        
+
+        marker_b1ced93255dcf838c692943838f1eae7.bindPopup(popup_ff4ffb28cfe591d9e18792581f91cfb4)
+        ;
+
+        
+    
+    
+            var marker_f4a8d0689357f26fa0e0f14530b8da7d = L.marker(
+                [-23.4289820888164, -46.4794300465334],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_cf7b014058df04826e98fc0cf76a92e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f4a8d0689357f26fa0e0f14530b8da7d.setIcon(icon_cf7b014058df04826e98fc0cf76a92e8);
+        
+    
+        var popup_31313880dcbe2ac0a53d42cf5b9b5129 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2f45368e91e628150850cd2952ef2c6 = $(`<div id="html_c2f45368e91e628150850cd2952ef2c6" style="width: 100.0%; height: 100.0%;">BRGRU - Internacional de Sao Paulo - Guarulhos</div>`)[0];
+            popup_31313880dcbe2ac0a53d42cf5b9b5129.setContent(html_c2f45368e91e628150850cd2952ef2c6);
+        
+
+        marker_f4a8d0689357f26fa0e0f14530b8da7d.bindPopup(popup_31313880dcbe2ac0a53d42cf5b9b5129)
+        ;
+
+        
+    
+    
+            var marker_96daa52baf8ced1096af71c1ce6d0aff = L.marker(
+                [-3.03207364243686, -60.0465031075186],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_e9e56bc1d274f3e78864181b00de1c58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_96daa52baf8ced1096af71c1ce6d0aff.setIcon(icon_e9e56bc1d274f3e78864181b00de1c58);
+        
+    
+        var popup_0f05050025d85c1d5b22d2f4d4640f4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85338fe65ac424b5e98b4addda56daa5 = $(`<div id="html_85338fe65ac424b5e98b4addda56daa5" style="width: 100.0%; height: 100.0%;">BRMAO - Internacional Eduardo Gomes</div>`)[0];
+            popup_0f05050025d85c1d5b22d2f4d4640f4a.setContent(html_85338fe65ac424b5e98b4addda56daa5);
+        
+
+        marker_96daa52baf8ced1096af71c1ce6d0aff.bindPopup(popup_0f05050025d85c1d5b22d2f4d4640f4a)
+        ;
+
+        
+    
+    
+            var marker_50c82b0723c7f177fb1bb88658d22d51 = L.marker(
+                [-3.25307274999984, -52.2486688295829],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_d8c019fd923dbac191326e9ae1234761 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_50c82b0723c7f177fb1bb88658d22d51.setIcon(icon_d8c019fd923dbac191326e9ae1234761);
+        
+    
+        var popup_e41333e22af165ba5186be1b0aa3488d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_254555781af053043dd27e6a8d015ab8 = $(`<div id="html_254555781af053043dd27e6a8d015ab8" style="width: 100.0%; height: 100.0%;">BRATM - Altamira</div>`)[0];
+            popup_e41333e22af165ba5186be1b0aa3488d.setContent(html_254555781af053043dd27e6a8d015ab8);
+        
+
+        marker_50c82b0723c7f177fb1bb88658d22d51.bindPopup(popup_e41333e22af165ba5186be1b0aa3488d)
+        ;
+
+        
+    
+    
+            var marker_7abaf5d206b4796ebe8455d854b78b55 = L.marker(
+                [-3.7756, -38.5326],
+                {}
+            ).addTo(map_d378f784665b094fa5a9c59b64111981);
+        
+    
+            var icon_4be978225e6258a88df29937243e3bdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7abaf5d206b4796ebe8455d854b78b55.setIcon(icon_4be978225e6258a88df29937243e3bdd);
+        
+    
+        var popup_dc127ac24cb8b0d44860f4682b5ff892 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36d367f6b654ba56c7fd7fd7182e81f0 = $(`<div id="html_36d367f6b654ba56c7fd7fd7182e81f0" style="width: 100.0%; height: 100.0%;">Pinto Martins – Fortaleza International Airport</div>`)[0];
+            popup_dc127ac24cb8b0d44860f4682b5ff892.setContent(html_36d367f6b654ba56c7fd7fd7182e81f0);
+        
+
+        marker_7abaf5d206b4796ebe8455d854b78b55.bindPopup(popup_dc127ac24cb8b0d44860f4682b5ff892)
+        ;
+
+        
+    
+</script>
+</html>
