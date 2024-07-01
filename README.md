@@ -11,3 +11,6 @@ Code included in this GitHub are
 10. Reference Maps: Informative maps
 11. Shape files: Shape file data for 1. Amazonian Town, Transportation network in 2014, Waterway
 12. Tables: Data for Amazonian town and production in table format
+13. Poster: Contain poster used in poster day
+14. Presentations: Contain all presentation used in critical sessions and final presentation, (Final presentation is splited between 2 zip files due to size constraint)
+15. Report: Contain the final report
